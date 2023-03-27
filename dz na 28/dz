@@ -14,3 +14,12 @@ num = int(input())
 print(get_days(num))
 
 #код мой со степика, 13.4 шаг 7
+
+
+n = int(input())
+def year():
+    if n % 4 == 0:
+        return n, 'год является високосным'
+    else:
+        return n, 'год не високосный'
+print(*year())
