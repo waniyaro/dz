@@ -1,0 +1,40 @@
+# #1
+
+# a, b, c = int(input('Введите свое первое число: ')), int(input('Введите свое второе число: ')), int(input('Введите ваше предположение: '))
+
+
+# if a+b == c:
+#     print('да, так и есть')
+    
+# else:
+#     print('нет, ошибка, сумма равна ', a + b)
+
+# #2
+# day = int(input('Введите число дней: '))
+# probeg = int(input('Введите число пробега: '))
+
+# a = probeg % 10
+# b = probeg // 10 % 10
+# c = probeg // 10 // 10
+
+# if a + b + c > day:
+#     probeg = 0
+#     print('Сброс')
+    
+# else:
+#     print('Сегодня не сломался')
+    
+# print(probeg)
+
+# #3 
+# hours = int(input('Введите число отработанных часов: '))
+# credit = int(input('Введите остаток по креду: '))
+# eat = int(input('Введите кол-во денег оставшихся на еду: '))
+
+# zarplata = ((200 * hours) / 2 ** 3) + hours
+
+# if zarplata >= credit + eat:
+#     print('Часов хватает, чилл))')
+    
+# else:
+#     print('пора работать')
