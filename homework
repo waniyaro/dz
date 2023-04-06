@@ -1,0 +1,54 @@
+# 2
+# curs = int(input('Введите значение: '))
+# for i in range(1, 21):
+#     print(i, 'долларов', 'это', i * curs)
+# 3
+# import math
+
+# for i in range(1, 21):
+#     print(math.exp(i))
+# 4 
+# a = 0.1
+# for i in range(1, 22):
+#     print(a + i)
+# 5 
+# a = 2.0
+
+# for i in range(1, 10):
+#     i %= 10
+#     i /= 10
+#     print(a + i)
+# 6
+# print(*[i for i in range(0 , 21, 2)])
+# 7 
+# print(*[i for i in range(1, 30, 2)])
+# 8 
+# from math import sqrt
+# for i in range(2, 20, 2):
+#     print(sqrt(i))
+# 9 
+# price = int(input('Введите цену за 1кг конфет: '))
+# for i in range(1, 11):
+#     print('Цена за', i, 'кг конфет равна ', price * i)
+# 10 
+# import numpy as np
+# import matplotlib.pyplot as plt
+
+# def function(x):
+#     return np.sqrt(x)
+
+# a = int(input()) 
+# b = int(input())  
+# step = 0.1 
+
+
+# x = np.arange(a, b + step, step)
+
+
+# y = function(x)
+
+
+# plt.plot(x, y)
+
+# plt.show()
+
