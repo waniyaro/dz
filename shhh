@@ -1,0 +1,10 @@
+gl = input('enter anything: ')
+numbes = input('enter ur num: ')
+words = input('enter ur words: ')
+def func1(num):    
+    n = num * 5
+    print(n)
+
+func1(gl)
+func1(numbes)
+func1(words)
