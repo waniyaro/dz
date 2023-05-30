@@ -1,0 +1,8 @@
+year = int(input('enter ur year: '))
+
+def func(year):
+    if year % 4 == 0:
+        print('год вискосный')
+    else:
+        print('год не високосный')
+func(year)
