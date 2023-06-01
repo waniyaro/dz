@@ -1,7 +1,7 @@
-def season(a):
-    if a == 12 or a == 1 or a == 2: return "Winter"
-    elif a in range(3, 6): return "Spring"
-    elif a in range(6, 9): return "Summer"
-    elif a in range(9, 12): return "Autumn"
+def seas(a):
+    if a == 12 or a == 1 or a == 2: return "зима"
+    elif a in range(3, 6): return "весна"
+    elif a in range(6, 9): return "лето"
+    elif a in range(9, 12): return "осень"
 
-print(season(int(input("Enter the month number: "))))
+print(season(int(input("введите номер месяца: "))))
